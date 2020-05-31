@@ -11,4 +11,16 @@ class Topic extends Model
         'created_at' => 'datetime:Y-m-d H:i:s',
         'updated_at' => 'datetime:Y-m-d H:i:s',
     ];
+    // 一个话题属于一个分类
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
+
+    // 一个话题属于一个作者
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
 }
