@@ -4,7 +4,11 @@
     <list default="true" id="79894204-53fa-448d-94f9-bcb1a1a08745" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Observers/ReplyObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/ReplyObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +182,7 @@
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/uploads/images/topics" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -211,7 +215,7 @@
       <workItem from="1591149897189" duration="3472000" />
       <workItem from="1591164206155" duration="1104000" />
       <workItem from="1591236307712" duration="7626000" />
-      <workItem from="1591271131518" duration="2888000" />
+      <workItem from="1591271131518" duration="5758000" />
     </task>
     <servers />
   </component>
@@ -240,20 +244,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591067353692" />
-    <state x="761" y="157" key="SettingsEditor" timestamp="1591067626849">
+    <state x="761" y="157" key="SettingsEditor" timestamp="1591323676825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2443" y="173" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590927072828" />
-    <state x="761" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591067626849" />
-    <state x="890" y="198" width="964" height="734" key="find.popup" timestamp="1591239222094">
+    <state x="761" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591323676825" />
+    <state x="993" y="202" width="675" height="655" key="StructurePopup" timestamp="1591323969288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="890" y="198" width="964" height="734" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591239222094" />
-    <state x="918" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1591238343658">
+    <state x="993" y="202" width="675" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1591323969288" />
+    <state width="777" height="498" key="SwitcherDM" timestamp="1591323932247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="777" height="498" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1591323932247" />
+    <state x="890" y="198" width="964" height="734" key="find.popup" timestamp="1591324268191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="890" y="198" width="964" height="734" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591324268191" />
+    <state x="918" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1591324679904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2838" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590930863226" />
-    <state x="918" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591238343658" />
+    <state x="918" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591324679904" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -297,6 +309,16 @@
           <url>file://$PROJECT_DIR$/resources/views/users/_replies.blade.php</url>
           <line>13</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/routes/web.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/routes/web.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/webpack.mix.js</url>
