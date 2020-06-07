@@ -16,7 +16,7 @@ class UserObserver
             $user->avatar = 'https://cdn.learnku.com/uploads/images/201710/30/1/TrJS40Ey5k.png';
         }
     }
-    
+
     public function creating(User $user)
     {
         //
