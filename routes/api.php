@@ -16,3 +16,7 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// 短信验证码
+Route::post('verificationCodes', 'Api\VerificationCodesController@store')
+    ->name('verificationCodes.store');
